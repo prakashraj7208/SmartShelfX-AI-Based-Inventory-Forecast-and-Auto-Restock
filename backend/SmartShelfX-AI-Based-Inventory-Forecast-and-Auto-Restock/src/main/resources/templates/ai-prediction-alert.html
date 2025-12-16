@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .prediction { background: #e3f2fd; padding: 15px; border-radius: 5px; }
+        .urgent { color: #e65100; }
+    </style>
+</head>
+<body>
+<h2>🤖 AI Demand Prediction</h2>
+<div class="prediction">
+    <h3>Product: {{productName}}</h3>
+    <p><strong>Predicted Demand:</strong> {{predictedDemand}} units</p>
+    <p><strong>AI Recommendation:</strong> {{recommendation}}</p>
+    <p><strong>Urgency Level:</strong> <span class="urgent">{{urgency}}</span></p>
+</div>
+<p>This prediction is based on historical data and machine learning analysis.</p>
+</body>
+</html>

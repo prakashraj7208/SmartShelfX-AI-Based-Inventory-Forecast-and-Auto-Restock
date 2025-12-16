@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .alert { color: #d63031; font-weight: bold; }
+        .info { background: #f8f9fa; padding: 15px; border-radius: 5px; }
+    </style>
+</head>
+<body>
+<h2>🚨 Stock Alert: {{productName}}</h2>
+<div class="info">
+    <p><strong>Current Stock:</strong> <span class="alert">{{currentStock}} units</span></p>
+    <p><strong>Reorder Level:</strong> {{reorderLevel}} units</p>
+    <p><strong>Alert Level:</strong> <span class="alert">{{alertLevel}}</span></p>
+</div>
+<p>Please take immediate action to restock this product.</p>
+<p>Best regards,<br>SmartShelfX System</p>
+</body>
+</html>

@@ -1,0 +1,195 @@
+2025-11-28T17:58:11.119+05:30  INFO 19348 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : Starting SmartshelfxApplication using Java 25 with PID 19348 (C:\Users\PRAKASHRAJ\Spring\New folder\smartshelfx\smartshelfx\target\classes started by PRAKASHRAJ in C:\Users\PRAKASHRAJ\Spring\New folder\smartshelfx\smartshelfx)
+2025-11-28T17:58:11.122+05:30 DEBUG 19348 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-28T17:58:11.123+05:30  INFO 19348 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-28T17:58:11.167+05:30  INFO 19348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-28T17:58:11.167+05:30  INFO 19348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-28T17:58:11.837+05:30  INFO 19348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-28T17:58:11.900+05:30  INFO 19348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 56 ms. Found 6 JPA repository interfaces.
+2025-11-28T17:58:12.471+05:30  INFO 19348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-28T17:58:12.482+05:30  INFO 19348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-28T17:58:12.482+05:30  INFO 19348 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-28T17:58:12.526+05:30  INFO 19348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-28T17:58:12.527+05:30  INFO 19348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1358 ms
+2025-11-28T17:58:12.640+05:30  INFO 19348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-28T17:58:12.681+05:30  INFO 19348 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-28T17:58:12.713+05:30  INFO 19348 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-28T17:58:12.917+05:30  INFO 19348 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-28T17:58:12.940+05:30  INFO 19348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-28T17:58:13.064+05:30  INFO 19348 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4e024c8d
+2025-11-28T17:58:13.067+05:30  INFO 19348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-28T17:58:13.110+05:30  WARN 19348 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-28T17:58:13.124+05:30  INFO 19348 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-28T17:58:13.945+05:30  INFO 19348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-28T17:58:14.091+05:30  INFO 19348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-28T17:58:14.312+05:30  INFO 19348 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-28T17:58:14.650+05:30 DEBUG 19348 --- [restartedMain] c.e.smartshelfx.security.JwtFilter       : Filter 'jwtFilter' configured for use
+2025-11-28T17:58:15.621+05:30  INFO 19348 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-11-28T17:58:15.661+05:30  INFO 19348 --- [restartedMain] c.e.s.service.FileStorageService         : File upload directories initialized
+2025-11-28T17:58:15.798+05:30  WARN 19348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-28T17:58:16.056+05:30 DEBUG 19348 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-11-28T17:58:16.148+05:30  WARN 19348 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/emails/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-28T17:58:16.150+05:30  WARN 19348 --- [restartedMain] o.thymeleaf.templatemode.TemplateMode    : [THYMELEAF][restartedMain] Unknown Template Mode 'HTML5'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2025-11-28T17:58:16.365+05:30  INFO 19348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-28T17:58:16.390+05:30  INFO 19348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-28T17:58:16.401+05:30  INFO 19348 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : Started SmartshelfxApplication in 5.625 seconds (process running for 5.965)
+2025-11-28T17:58:16.403+05:30  INFO 19348 --- [scheduling-1] c.e.smartshelfx.service.AlertService     : 🤖 Generating AI-powered alerts...
+2025-11-28T17:59:03.963+05:30  INFO 19348 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-28T17:59:03.963+05:30  INFO 19348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-28T17:59:03.966+05:30  INFO 19348 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-11-28T17:59:03.981+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /test-email
+2025-11-28T17:59:03.988+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T17:59:03.992+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T17:59:03.999+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-11-28T17:59:04.000+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T17:59:04.001+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T17:59:21.135+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
+2025-11-28T17:59:21.135+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T17:59:21.136+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
+2025-11-28T17:59:21.462+05:30  WARN 19348 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 1062, SQLState: 23000
+2025-11-28T17:59:21.462+05:30 ERROR 19348 --- [http-nio-8080-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Duplicate entry '+1234567890' for key 'users.UKdu5v5sr43g5bfnji4vb8hg5s3'
+2025-11-28T17:59:25.438+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-11-28T17:59:25.440+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T17:59:25.440+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2025-11-28T17:59:25.922+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.s.a.dao.DaoAuthenticationProvider    : Failed to find user 'admin@test.com'
+2025-11-28T17:59:25.924+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.s.authentication.ProviderManager     : Authentication failed with provider DaoAuthenticationProvider since Bad credentials
+2025-11-28T17:59:25.925+05:30 ERROR 19348 --- [http-nio-8080-exec-3] c.e.s.controller.AuthController          : Login failed for email: admin@test.com
+2025-11-28T17:59:32.823+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-11-28T17:59:32.823+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T17:59:32.823+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2025-11-28T17:59:33.092+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-11-28T17:59:35.829+05:30 DEBUG 19348 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/auth/me
+2025-11-28T17:59:35.850+05:30 DEBUG 19348 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/auth/me
+2025-11-28T17:59:38.332+05:30 DEBUG 19348 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/logout
+2025-11-28T17:59:38.341+05:30 DEBUG 19348 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/logout
+2025-11-28T17:59:40.528+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-11-28T17:59:40.529+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T17:59:40.529+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2025-11-28T17:59:40.773+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-11-28T17:59:45.729+05:30 DEBUG 19348 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/products
+2025-11-28T17:59:45.739+05:30 DEBUG 19348 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/products
+2025-11-28T17:59:58.705+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /api/forecast/product/1
+2025-11-28T17:59:58.714+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Secured GET /api/forecast/product/1
+2025-11-28T17:59:58.716+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.ForecastController.getProductForecast(java.lang.Long); target is of class [com.example.smartshelfx.controller.ForecastController]
+2025-11-28T17:59:58.726+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.ForecastController.getProductForecast(java.lang.Long); target is of class [com.example.smartshelfx.controller.ForecastController]
+2025-11-28T17:59:58.727+05:30  INFO 19348 --- [http-nio-8080-exec-9] c.e.s.controller.ForecastController      : 📊 Getting AI forecast for product: 1
+2025-11-28T18:00:05.932+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api/ai/recommendations
+2025-11-28T18:00:05.941+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Secured GET /api/ai/recommendations
+2025-11-28T18:00:05.944+05:30  WARN 19348 --- [http-nio-8080-exec-10] c.e.s.exception.GlobalExceptionHandler   : Illegal argument: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+2025-11-28T18:00:05.946+05:30  WARN 19348 --- [http-nio-8080-exec-10] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.]
+2025-11-28T18:00:17.574+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/inventory/transactions
+2025-11-28T18:00:17.584+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/inventory/transactions
+2025-11-28T18:00:17.585+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.InventoryController.getAllTransactions(); target is of class [com.example.smartshelfx.controller.InventoryController]
+2025-11-28T18:00:17.585+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.InventoryController.getAllTransactions(); target is of class [com.example.smartshelfx.controller.InventoryController]
+2025-11-28T18:00:20.207+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /api/inventory/transactions/recent
+2025-11-28T18:00:20.216+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Secured GET /api/inventory/transactions/recent
+2025-11-28T18:00:20.217+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.InventoryController.getRecentTransactions(); target is of class [com.example.smartshelfx.controller.InventoryController]
+2025-11-28T18:00:20.218+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.InventoryController.getRecentTransactions(); target is of class [com.example.smartshelfx.controller.InventoryController]
+2025-11-28T18:00:24.672+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing GET /api/dashboard/stats
+2025-11-28T18:00:24.683+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured GET /api/dashboard/stats
+2025-11-28T18:00:24.684+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.DashboardController.getDashboardStats(); target is of class [com.example.smartshelfx.controller.DashboardController]
+2025-11-28T18:00:24.685+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.DashboardController.getDashboardStats(); target is of class [com.example.smartshelfx.controller.DashboardController]
+2025-11-28T18:00:27.484+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Securing GET /api/dashboard/insights
+2025-11-28T18:00:27.495+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] o.s.security.web.FilterChainProxy        : Secured GET /api/dashboard/insights
+2025-11-28T18:00:27.496+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.DashboardController.getDashboardInsights(); target is of class [com.example.smartshelfx.controller.DashboardController]
+2025-11-28T18:00:27.496+05:30 DEBUG 19348 --- [http-nio-8080-exec-4] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.DashboardController.getDashboardInsights(); target is of class [com.example.smartshelfx.controller.DashboardController]
+2025-11-28T18:00:32.654+05:30 DEBUG 19348 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Securing GET /api/alerts
+2025-11-28T18:00:32.662+05:30 DEBUG 19348 --- [http-nio-8080-exec-5] o.s.security.web.FilterChainProxy        : Secured GET /api/alerts
+2025-11-28T18:00:32.664+05:30 DEBUG 19348 --- [http-nio-8080-exec-5] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.AlertController.getAllAlerts(java.lang.Boolean); target is of class [com.example.smartshelfx.controller.AlertController]
+2025-11-28T18:00:32.665+05:30 DEBUG 19348 --- [http-nio-8080-exec-5] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.AlertController.getAllAlerts(java.lang.Boolean); target is of class [com.example.smartshelfx.controller.AlertController]
+2025-11-28T18:00:35.414+05:30 DEBUG 19348 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Securing GET /api/alerts/unread/count
+2025-11-28T18:00:35.424+05:30 DEBUG 19348 --- [http-nio-8080-exec-7] o.s.security.web.FilterChainProxy        : Secured GET /api/alerts/unread/count
+2025-11-28T18:00:35.425+05:30 DEBUG 19348 --- [http-nio-8080-exec-7] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.AlertController.getUnreadAlertCount(); target is of class [com.example.smartshelfx.controller.AlertController]
+2025-11-28T18:00:35.425+05:30 DEBUG 19348 --- [http-nio-8080-exec-7] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.AlertController.getUnreadAlertCount(); target is of class [com.example.smartshelfx.controller.AlertController]
+2025-11-28T18:00:41.816+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Securing GET /api/purchase-orders
+2025-11-28T18:00:41.826+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] o.s.security.web.FilterChainProxy        : Secured GET /api/purchase-orders
+2025-11-28T18:00:41.827+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.PurchaseOrderController.getAllPurchaseOrders(); target is of class [com.example.smartshelfx.controller.PurchaseOrderController]
+2025-11-28T18:00:41.828+05:30 DEBUG 19348 --- [http-nio-8080-exec-6] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.PurchaseOrderController.getAllPurchaseOrders(); target is of class [com.example.smartshelfx.controller.PurchaseOrderController]
+2025-11-28T18:00:46.938+05:30 DEBUG 19348 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Securing GET /api/vendors
+2025-11-28T18:00:46.947+05:30 DEBUG 19348 --- [http-nio-8080-exec-8] o.s.security.web.FilterChainProxy        : Secured GET /api/vendors
+2025-11-28T18:00:46.947+05:30 DEBUG 19348 --- [http-nio-8080-exec-8] horizationManagerBeforeMethodInterceptor : Authorizing method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.VendorController.getAllVendors(); target is of class [com.example.smartshelfx.controller.VendorController]
+2025-11-28T18:00:46.948+05:30 DEBUG 19348 --- [http-nio-8080-exec-8] horizationManagerBeforeMethodInterceptor : Authorized method invocation ReflectiveMethodInvocation: public org.springframework.http.ResponseEntity com.example.smartshelfx.controller.VendorController.getAllVendors(); target is of class [com.example.smartshelfx.controller.VendorController]
+2025-11-28T18:00:52.717+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /swagger-ui.html
+2025-11-28T18:00:52.717+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:00:52.717+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T18:00:52.718+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-11-28T18:00:52.718+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:00:52.718+05:30 DEBUG 19348 --- [http-nio-8080-exec-9] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T18:00:55.319+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /api-docs
+2025-11-28T18:00:55.320+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:00:55.320+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T18:00:55.321+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-11-28T18:00:55.321+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:00:55.321+05:30 DEBUG 19348 --- [http-nio-8080-exec-10] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T18:01:02.666+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/data/export/products
+2025-11-28T18:01:02.675+05:30 DEBUG 19348 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Secured GET /api/data/export/products
+2025-11-28T18:01:02.675+05:30  WARN 19348 --- [http-nio-8080-exec-1] c.e.s.exception.GlobalExceptionHandler   : Illegal argument: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+2025-11-28T18:01:02.677+05:30  WARN 19348 --- [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.]
+2025-11-28T18:01:08.616+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /test-email
+2025-11-28T18:01:08.617+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:01:08.618+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T18:01:08.619+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-11-28T18:01:08.619+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:01:08.620+05:30 DEBUG 19348 --- [http-nio-8080-exec-2] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T18:01:11.884+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Securing POST /api/notifications/test-email?email=test@example.com
+2025-11-28T18:01:11.893+05:30 DEBUG 19348 --- [http-nio-8080-exec-3] o.s.security.web.FilterChainProxy        : Secured POST /api/notifications/test-email?email=test@example.com
+2025-11-28T18:01:11.894+05:30  WARN 19348 --- [http-nio-8080-exec-3] c.e.s.exception.GlobalExceptionHandler   : Illegal argument: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.
+2025-11-28T18:01:11.895+05:30  WARN 19348 --- [http-nio-8080-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [java.lang.IllegalArgumentException: When allowCredentials is true, allowedOrigins cannot contain the special value "*" since that cannot be set on the "Access-Control-Allow-Origin" response header. To allow credentials to a set of origins, list them explicitly or consider using "allowedOriginPatterns" instead.]
+2025-11-28T18:03:16.400+05:30  INFO 19348 --- [scheduling-2] c.e.smartshelfx.service.AlertService     : 🤖 Generating AI-powered alerts...
+2025-11-28T18:24:41.710+05:30  INFO 12832 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : Starting SmartshelfxApplication using Java 25 with PID 12832 (C:\Users\PRAKASHRAJ\Spring\New folder\smartshelfx\smartshelfx\target\classes started by PRAKASHRAJ in C:\Users\PRAKASHRAJ\Spring\New folder\smartshelfx\smartshelfx)
+2025-11-28T18:24:41.712+05:30 DEBUG 12832 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : Running with Spring Boot v3.5.6, Spring v6.2.11
+2025-11-28T18:24:41.712+05:30  INFO 12832 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-11-28T18:24:41.763+05:30  INFO 12832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-11-28T18:24:41.764+05:30  INFO 12832 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-11-28T18:24:42.606+05:30  INFO 12832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-11-28T18:24:42.677+05:30  INFO 12832 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 59 ms. Found 6 JPA repository interfaces.
+2025-11-28T18:24:43.253+05:30  INFO 12832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-11-28T18:24:43.268+05:30  INFO 12832 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-11-28T18:24:43.268+05:30  INFO 12832 --- [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.46]
+2025-11-28T18:24:43.310+05:30  INFO 12832 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-11-28T18:24:43.312+05:30  INFO 12832 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1548 ms
+2025-11-28T18:24:43.436+05:30  INFO 12832 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-11-28T18:24:43.483+05:30  INFO 12832 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.29.Final
+2025-11-28T18:24:43.521+05:30  INFO 12832 --- [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-11-28T18:24:43.753+05:30  INFO 12832 --- [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-11-28T18:24:43.782+05:30  INFO 12832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-11-28T18:24:43.929+05:30  INFO 12832 --- [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@323229a
+2025-11-28T18:24:43.931+05:30  INFO 12832 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-11-28T18:24:43.981+05:30  WARN 12832 --- [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-11-28T18:24:43.995+05:30  INFO 12832 --- [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.42
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-11-28T18:24:44.935+05:30  INFO 12832 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-11-28T18:24:45.070+05:30  INFO 12832 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-11-28T18:24:45.314+05:30  INFO 12832 --- [restartedMain] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-11-28T18:24:45.705+05:30 DEBUG 12832 --- [restartedMain] c.e.smartshelfx.security.JwtFilter       : Filter 'jwtFilter' configured for use
+2025-11-28T18:24:46.871+05:30  INFO 12832 --- [restartedMain] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userService
+2025-11-28T18:24:46.912+05:30  INFO 12832 --- [restartedMain] c.e.s.service.FileStorageService         : File upload directories initialized
+2025-11-28T18:24:47.063+05:30  WARN 12832 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-11-28T18:24:47.362+05:30 DEBUG 12832 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2025-11-28T18:24:47.463+05:30  WARN 12832 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/emails/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2025-11-28T18:24:47.465+05:30  WARN 12832 --- [restartedMain] o.thymeleaf.templatemode.TemplateMode    : [THYMELEAF][restartedMain] Unknown Template Mode 'HTML5'. Must be one of: 'HTML', 'XML', 'TEXT', 'JAVASCRIPT', 'CSS', 'RAW'. Using default Template Mode 'HTML'.
+2025-11-28T18:24:47.689+05:30  INFO 12832 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-11-28T18:24:47.720+05:30  INFO 12832 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-11-28T18:24:47.731+05:30  INFO 12832 --- [restartedMain] c.e.smartshelfx.SmartshelfxApplication   : Started SmartshelfxApplication in 6.524 seconds (process running for 6.986)
+2025-11-28T18:24:47.734+05:30  INFO 12832 --- [scheduling-1] c.e.smartshelfx.service.AlertService     : 🤖 Generating AI-powered alerts...
+2025-11-28T18:25:34.183+05:30  INFO 12832 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-28T18:25:34.184+05:30  INFO 12832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-11-28T18:25:34.186+05:30  INFO 12832 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-11-28T18:25:34.210+05:30 DEBUG 12832 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /api/dashboard/stats
+2025-11-28T18:25:34.253+05:30 DEBUG 12832 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:25:34.257+05:30 DEBUG 12832 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
+2025-11-28T18:25:34.267+05:30 DEBUG 12832 --- [http-nio-8080-exec-1] o.s.security.web.FilterChainProxy        : Securing GET /error
+2025-11-28T18:25:34.268+05:30 DEBUG 12832 --- [http-nio-8080-exec-1] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-11-28T18:25:34.269+05:30 DEBUG 12832 --- [http-nio-8080-exec-1] o.s.s.w.a.Http403ForbiddenEntryPoint     : Pre-authenticated entry point called. Rejecting access
